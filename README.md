@@ -21,6 +21,7 @@ The table below summarises the complete knowledge base used by the chatbot:
 ●	Converts the user's sentence to lower case so that matching is not case-sensitive.
 ●	re.search() scans the message for each pattern of every intent; the first intent whose pattern is found is returned.
 ●	If no pattern matches any intent, the function returns None so the fallback response can be used.
+
 <img width="632" height="115" alt="image" src="https://github.com/user-attachments/assets/b4e8db5f-7e9c-4e48-9aeb-82d4c9e43097" />
 ### Step 4: Define the Chatbot Response Function
 ●	Calls match_intent() to identify what the user is asking about.
@@ -42,6 +43,7 @@ The complete script is executed in Python. Since input() cannot be used for auto
 Output
 ### Sample Conversation Output (Part 1)
 ●	The chatbot correctly greets the user and identifies the courses, eligibility, fees, application process and documents intents from the keywords present in each question.
+
 <img width="646" height="470" alt="image" src="https://github.com/user-attachments/assets/016e1f31-dd01-4348-8815-70b3577b1391" />
 ### Sample Conversation Output (Part 2)
 ●	The remaining queries about dates, hostel facility and contact details are correctly matched to their respective intents.
